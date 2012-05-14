@@ -9,6 +9,9 @@ This is a complete rewrite of TOAST library by Jens Roland to make it:
 * Compatible with Modular CodeIgniter (Modular Extensions)
 * More simplistic on design and usage
 
+##Sample screenshot:
+![CodeIgniter Test_Controller Sample Screenshot](http://localhostr.com/file/930/mSRudLHiYHJZ/ci-test-controller.png)
+
 ##Requirements:
 * PHP cURL Extension
 * CodeIgniter Modular Extensions
