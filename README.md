@@ -9,14 +9,14 @@ This is a complete rewrite of TOAST library by Jens Roland to make it:
 * Compatible with Modular CodeIgniter (Modular Extensions)
 * More simplistic on design and usage
 
-##Sample screenshot:
+##Sample screenshot
 ![CodeIgniter Test_Controller Sample Screenshot](http://localhostr.com/file/930/mSRudLHiYHJZ/ci-test-controller.png)
 
-##Requirements:
+##Requirements
 * PHP cURL Extension
 * CodeIgniter Modular Extensions
 
-##Installation:
+##Installation
 * Place `Test_Controller.php` in `application/libraries` directory.
 * Add library routing rule to `application/config/routes.php`:
 `$route['([a-z0-9_])/tests'] = '$1/tests/Test_$1/index';`
@@ -25,7 +25,7 @@ This is a complete rewrite of TOAST library by Jens Roland to make it:
 * All module test case results should be available at `http://example.com/[MODULE_NAME]/tests`
 * See the section below for the usage instructions.
 
-##Usage:
+##Usage
 * Your test controller should extend `Test_Controller` abstract class.
 * It's recommended to name your test classes follow this naming pattern: `Test_[MODULE_NAME][_SUFFIX]`
    example: `Test_welcome[_user] extends Test_Controler`
