@@ -43,6 +43,7 @@ class Test_welcome extends Test_Controller {
 /* End of file application/modules/welcome/controllers/tests/test_welcome.php */
 ```
 * Your test controller should extend `Test_Controller` abstract class.
+* Your test controller class must call Test_Controller's constructor passing `__FILE__` to it.
 * It's recommended to name your test classes follow this naming pattern: `Test_[MODULE_NAME][_SUFFIX]`
    example: `Test_welcome[_user] extends Test_Controler`
 * You can write several test classes per module, `Test_[MODULE_NAME].php` is required
