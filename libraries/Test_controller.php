@@ -77,7 +77,7 @@
  * @subpackage	Controllers
  * @category	Unit Testing
  * @author		Sepehr Lajevardi <me@sepehr.ws>
- * @link		http://codeigniter.com/user_guide/libraries/sessions.html
+ * @link		https://github.com/sepehr/ci-test-controller
  */
 abstract class Test_Controller extends CI_Controller {
 
