@@ -26,6 +26,22 @@ This is a complete rewrite of TOAST library by Jens Roland to make it:
 * See the section below for the usage instructions.
 
 ##Usage
+```php
+require APPPATH . '/libraries/Test_controller.php';
+class Test_welcome extends Test_Controller {
+	public function __construct()
+	{
+		parent::__construct(__FILE__);
+		// Load models, controllers, libraries, etc to test.
+	}
+
+	public function test_assert_var_true() {
+		$var = TRUE;
+		$this->_assert_true($var);
+	}
+}
+/* End of file application/modules/welcome/controllers/tests/test_welcome.php */
+```
 * Your test controller should extend `Test_Controller` abstract class.
 * It's recommended to name your test classes follow this naming pattern: `Test_[MODULE_NAME][_SUFFIX]`
    example: `Test_welcome[_user] extends Test_Controler`
