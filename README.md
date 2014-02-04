@@ -19,7 +19,7 @@ This is a complete rewrite of TOAST library by Jens Roland to make it:
 ##Installation
 * Place `Test_Controller.php` in `application/libraries` directory.
 * Add library routing rule to `application/config/routes.php`:
-`$route['([a-z0-9_])/tests'] = '$1/tests/Test_$1/index';`
+`$route['([a-z0-9_]*)/tests'] = '$1/tests/Test_$1/index';`
 * Create `application/modules/[MODULE_NAME]/controllers/tests` directory
 * Create `application/modules/[MODULE_NAME]/controllers/tests/Test_[MODULE_NAME].php`
 * All module test case results should be available at `http://example.com/[MODULE_NAME]/tests`
